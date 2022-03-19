@@ -17,6 +17,7 @@ public class LogInStepDefinition {
 	public void open_web_browser() {
 	    WebDriverManager.chromedriver().setup();
 	    driver=new ChromeDriver();
+	    //to open web browser
 	}
 
 	@Then("enter url {string}")
